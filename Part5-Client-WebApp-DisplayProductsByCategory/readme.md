@@ -68,7 +68,7 @@ Add a route to the application, app.js, to forward requests for **/catgeory** to
 
 1. Add an end-point to the **Product Controller** to handle requests for **products by category id.**
 
-<img src="/data/OneDrive/work-share/Lect/course-content/y3-SSWD/Lab/2021-SQLite/markdown/Part5-Client-WebApp-DisplayProductsByCategory/media/endpoint-bycatid.png" alt="endpoint-bycatid" style="zoom:67%;" />
+<img src="./media/endpoint-bycatid.png" alt="endpoint-bycatid" style="zoom:67%;" />
 
 2. Add the **service** function
 
@@ -250,7 +250,7 @@ async function filterProducts() {
 
 3. Test it
 
-   <img src="/data/OneDrive/work-share/Lect/course-content/y3-SSWD/Lab/2021-SQLite/markdown/Part5-Client-WebApp-DisplayProductsByCategory/media/productService-bycatid-web.png" alt="productService-bycatid-web" style="zoom:67%;" />
+   <img src="./media/productService-bycatid-web.png" alt="productService-bycatid-web" style="zoom:67%;" />
 
 
 
@@ -258,11 +258,11 @@ async function filterProducts() {
 
 Currently a user needs to know the id of a category and enter it in a text input. Replace that with a select box.
 
-<img src="/data/OneDrive/work-share/Lect/course-content/y3-SSWD/Lab/2021-SQLite/markdown/Part5-Client-WebApp-DisplayProductsByCategory/media/cay_select.png" alt="cay_select" style="zoom:50%;" />
+<img src="./media/cay_select.png" alt="cay_select" style="zoom:50%;" />
 
 1. Edit **index.html** and replace the form text input with a select
 
-   <img src="/data/OneDrive/work-share/Lect/course-content/y3-SSWD/Lab/2021-SQLite/markdown/Part5-Client-WebApp-DisplayProductsByCategory/media/html-select.png" alt="html-select" style="zoom:80%;" />
+   <img src="./media/html-select.png" alt="html-select" style="zoom:80%;" />
 
 
 
