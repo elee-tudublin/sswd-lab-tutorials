@@ -35,7 +35,7 @@ The client-side application will need a list of categories and also the products
 
 Similiar tp products, requests for categories will be sent from the client browser to an API endpount which will handle the request and return a list of **categories** in **JSON** format. The functionality will require a Category **Controller**, **Service**, and **Repository**.
 
-<img src="./media/ServerAPI_folders.png" alt="ServerAPI_folders" style="zoom: 67%;" />
+<img src="./media/ServerAPI_folders.png" alt="ServerAPI_folders" style="zoom: 50%;" />
 
 
 Duplicate the **Product** version of each and modify for **Category**. Most of the required functionality is the same, refer to the product API lab for details.
@@ -266,7 +266,7 @@ Currently a user needs to know the id of a category and enter it in a text input
 
 
 
-2. Modify the ***```displayCategories()```*** function.
+2. Modify the **```displayCategories()```** function.
 
    Add the following JavaScript at the end of the function *- read the code comments for details.*
 
